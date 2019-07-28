@@ -1,0 +1,26 @@
+#pragma once
+
+//////////////////////////////////////////////////////////////////////////
+// STL includes and definitions.
+//
+
+#include <iostream>
+#include <memory>
+
+//////////////////////////////////////////////////////////////////////////
+// Windows SDK includes and definitions.
+//
+
+#include <atlbase.h>
+#include <Shellapi.h>
+
+//////////////////////////////////////////////////////////////////////////
+// WTL includes and definitions
+//
+
+#include <wtl/atlapp.h>
+#include <wtl/atluser.h>
+#include <wtl/atlcrack.h>
+#include <wtl/atlmisc.h>
+
+extern CAppModule _Module;
